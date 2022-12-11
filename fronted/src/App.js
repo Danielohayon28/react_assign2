@@ -1,6 +1,5 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom";
-import ExtendedItem from './pages/ExtendedItem';
 import {BrowserRouter} from 'react-router-dom'
 import HomePage from "./pages/HomePage";
 function App() {
@@ -10,7 +9,6 @@ function App() {
 <BrowserRouter>   
   <Routes>
       <Route path="/" element={<HomePage />}/>
-      <Route path="/Product/:id" element={<ExtendedItem />}/>
     </Routes>
     </BrowserRouter>
 

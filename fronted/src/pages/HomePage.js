@@ -1,7 +1,6 @@
 import React, {useEffect,useState} from "react";
 import axios from 'axios'
 import Item from "../components/item";
-import { Products } from "../components/data";
 
 const HomePage = ()=>{
     const [product,setProduct] = useState(null)
